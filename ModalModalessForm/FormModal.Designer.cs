@@ -42,6 +42,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "FormModal";
+            this.Load += new System.EventHandler(this.FormModal_Load);
             this.ResumeLayout(false);
 
         }

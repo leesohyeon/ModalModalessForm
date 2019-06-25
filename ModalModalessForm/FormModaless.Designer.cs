@@ -42,6 +42,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "FormModaless";
+            this.Load += new System.EventHandler(this.FormModaless_Load);
             this.ResumeLayout(false);
 
         }

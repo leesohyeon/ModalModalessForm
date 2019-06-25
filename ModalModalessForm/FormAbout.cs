@@ -30,5 +30,9 @@ namespace ModalModalessForm
         {
 
         }
-    }
+        public string Title
+        {
+            set { this.Text = value; }
+        }
+}
 }
